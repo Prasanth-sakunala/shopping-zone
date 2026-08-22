@@ -1,11 +1,60 @@
-# Sample Snack app
+# Shopping Zone
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+A React Native shopping experience built with Expo. Shopping Zone covers the customer journey from browsing products to managing a cart, placing an order, and viewing account details.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+## Features
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+- Product browsing and detail screens
+- Cart state and quantity management with Redux
+- Checkout, payment, and order-success flows
+- Profile and account screens
+- Stack navigation with React Navigation
+- Reusable UI components with React Native Paper and Expo icons
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+## Tech Stack
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+- React Native 0.74
+- Expo SDK 51
+- Redux Toolkit and React Redux
+- React Navigation
+- Axios
+- React Native Paper
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js LTS
+- npm
+- Expo Go on a physical device, or an Android/iOS simulator
+
+### Install and run
+
+```bash
+git clone https://github.com/Prasanth-sakunala/shopping-zone.git
+cd shopping-zone
+npm install
+npm start
+```
+
+Use the Expo CLI prompts to open the app on Android, iOS, or the web:
+
+```bash
+npm run android
+npm run ios
+npm run web
+```
+
+## Project Structure
+
+```text
+components/   Shared header and navigation UI
+screens/      Product, cart, checkout, order, and profile screens
+redux/        Cart state, actions, reducers, and store setup
+assets/       App assets
+App.js        Application entry point
+```
+
+## License
+
+No license is currently specified for this repository.
